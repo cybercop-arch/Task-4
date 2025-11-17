@@ -5,9 +5,11 @@ RECON:
 fping -a -g 192.168.101.0/24 2>/dev/null
 
 192.168.101.1
+
 192.168.101.129
 ---
 nmap -sU -sS 192.168.101.129
+
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-17 04:51 EST
 Nmap scan report for 192.168.101.129
 Host is up (0.0028s latency).
@@ -41,9 +43,10 @@ PORT     STATE SERVICE
 137/udp  open  netbios-ns
 2049/udp open  nfs
 
-Nmap done: 1 IP address (1 host up) scanned in 8.56 seconds
 ---
+
 nmap -sV 192.168.101.129
+
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-17 04:51 EST
 Nmap scan report for 192.168.101.129
 Host is up (0.0034s latency).
@@ -74,10 +77,10 @@ PORT     STATE SERVICE      VERSION
 8180/tcp open  http         Apache Tomcat/Coyote JSP engine 1.1
 Service Info: Hosts:  metasploitable.localdomain, irc.Metasploitable.LAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 177.04 seconds
 ---
+
 nmap --script vuln 192.168.101.129
+
 Finding out known vulnerabilities using a collection of NSE (Nmap Scripting Engine) scripts from the vuln category.
 
 ---
