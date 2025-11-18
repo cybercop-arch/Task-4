@@ -1,6 +1,6 @@
 # Penetration Testing Methodology
 
-RECON:
+RECON and SCANNING:
 
 fping -a -g 192.168.101.0/24 2>/dev/null
 
