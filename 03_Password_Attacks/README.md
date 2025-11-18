@@ -41,11 +41,11 @@ telnetd:*:14715:0:99999:7:::
 proftpd:!:14727:0:99999:7:::
 statd:*:15474:0:99999:7:::
 
-2.Save all the hashes in a file
+2. Save all the hashes in a file
 
 - nano combo.txt   :
 
-3.using JOHN - THE RIPPER for cracking the hashes
+3. Using JOHN - THE RIPPER for cracking the hashes
 
 - john combo.txt :
 
@@ -75,7 +75,7 @@ Proceeding with incremental:ASCII
 
 ---
 
-4.we get in .john directory and cat our cracked hashes
+4. We get in .john directory and cat our cracked hashes
 
 - cat john.pot :
 
