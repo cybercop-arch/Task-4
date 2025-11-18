@@ -32,6 +32,7 @@ sessions:
 Active sessions
 
   Id   Name    Type            Information      Connection
+  
   1          shell cmd/unix    root           192.168.101.130:4444 -> 192.168.101.129:60375
 
 5. Interact With the Shell
