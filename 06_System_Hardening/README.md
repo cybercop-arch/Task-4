@@ -34,7 +34,13 @@ Proper firewall management restricts unauthorized traffic and enforces network r
 - **Linux (UFW)**:  
   - Allow: `ufw allow 22/tcp`  
   - Deny: `ufw deny 23/tcp`  
-  - Enable: `ufw enable`  
+  - Enable: `ufw enable`
+ 
+   <img width="713" height="535" alt="image" src="https://github.com/user-attachments/assets/ba5e5b49-d99b-4bf2-b661-284ea41950e5" />
+   
+  <img width="926" height="352" alt="image" src="https://github.com/user-attachments/assets/7110ac8a-7baa-4772-8cca-e4c8c4e66644" />
+
+
 
 - **Windows Firewall**:  
   - Create inbound/outbound rules  
@@ -69,7 +75,13 @@ Every running service increases your attack surface.
 #### Steps
 1. Identify services not required  
 2. Disable or remove them  
-3. Prevent them from starting at boot  
+3. Prevent them from starting at boot
+
+   <img width="1163" height="801" alt="image" src="https://github.com/user-attachments/assets/db062c3a-4b05-41cf-a3cc-3380b7ae9c09" />
+
+   <img width="1575" height="163" alt="image" src="https://github.com/user-attachments/assets/5edb6f6c-b8fc-4c77-858b-cd18f554c7c6" />
+
+
 
 #### Examples
 - Disable legacy protocols (FTP, Telnet)  
