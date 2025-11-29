@@ -13,7 +13,7 @@ Includes:
 
 Deliverables:
 - Penetration Testing Report Template
-- Exploit notes, screenshots folders
+- Exploit notes
 - 10‑minute exploit demo script
 
 For educational, authorized environments only.
